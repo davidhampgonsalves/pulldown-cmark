@@ -26,7 +26,7 @@ pub mod html;
 extern crate bitflags;
 
 mod passes;
-mod parse;
+pub mod parse;
 mod scanners;
 mod entities;
 mod escape;
